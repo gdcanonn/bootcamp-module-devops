@@ -8,7 +8,7 @@ phases:
   pre_build:
     commands:
       - echo Instalar las dependencias de Python
-      - cd ../../backend/
+      - cd backend/
       - pip install -r requirements.txt
   build:
     commands:
