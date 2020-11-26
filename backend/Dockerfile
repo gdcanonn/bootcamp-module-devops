@@ -1,6 +1,6 @@
 FROM python:3.7-alpine
 
-EXPOSE 80
+EXPOSE 8000
 
 WORKDIR /opt/app
 
